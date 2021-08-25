@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.NavSection{
+    overflow: hidden;
+    background-color: #333;
+    height: 70px;
+    width: 100%;
+    margin: auto;
+}
+.logo{
+    margin-left: 15%;
+    margin-top: 10px;
+    height: 50px;
+}
+.NavList{
+    list-style-type: none;
+    display: inline;
+}
+.nav-item{
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navMenu{
+    margin-right: 15%;
+    display: inline-block;
+    float: right;
+    margin-top: 20px;
+}
+a:hover{
+    color: blue;
+}
